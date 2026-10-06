@@ -91,3 +91,12 @@ a threshold is only as good as the eval it was tuned on.
 ## Resume line
 
 Internal documentation assistant over employee handbook policies. Chunks and embeddings live in Postgres with pgvector; retrieval is SQL with department filters, source citations, and a similarity gate that refuses when the answer is not in the corpus.
+
+## License
+
+Code in this repository is MIT licensed — see [LICENSE](LICENSE).
+
+The handbook corpus is **not** committed here: it is generated locally from GitLab's
+public [Handbook](https://handbook.gitlab.com), which is © GitLab and licensed under
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). See
+[docs/data.md](docs/data.md#license) for attribution requirements.
