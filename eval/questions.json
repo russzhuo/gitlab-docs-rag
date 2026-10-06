@@ -1,0 +1,460 @@
+[
+  {
+    "id": 1,
+    "question": "What are GitLab's six core values?",
+    "expect_in_docs": true,
+    "expected_any": [
+      "CREDIT",
+      "Collaboration",
+      "Results",
+      "Efficiency",
+      "Diversity",
+      "Iteration",
+      "Transparency"
+    ],
+    "expected_absent": [],
+    "category": "concept",
+    "difficulty": "hard"
+  },
+  {
+    "id": 2,
+    "question": "What password manager does GitLab require team members to use?",
+    "expect_in_docs": true,
+    "expected_any": ["1Password", "Okta"],
+    "expected_absent": [],
+    "category": "fact",
+    "difficulty": "easy"
+  },
+  {
+    "id": 3,
+    "question": "What should I do if I forget my 1Password master password?",
+    "expect_in_docs": true,
+    "expected_any": ["Compass", "master password"],
+    "expected_absent": [],
+    "category": "process",
+    "difficulty": "medium"
+  },
+  {
+    "id": 4,
+    "question": "Do I need manager approval before booking a business trip?",
+    "expect_in_docs": true,
+    "expected_any": ["manager approval", "business critical", "pre-approval"],
+    "expected_absent": [],
+    "category": "policy",
+    "difficulty": "medium"
+  },
+  {
+    "id": 5,
+    "question": "Do I need to submit receipts for business expenses?",
+    "expect_in_docs": true,
+    "expected_any": ["receipts", "receipt"],
+    "expected_absent": [],
+    "category": "policy",
+    "difficulty": "easy"
+  },
+  {
+    "id": 6,
+    "question": "What endpoint management tool does GitLab use for Mac laptops?",
+    "expect_in_docs": true,
+    "expected_any": ["Jamf"],
+    "expected_absent": [],
+    "category": "fact",
+    "difficulty": "easy"
+  },
+  {
+    "id": 7,
+    "question": "How should I deliver negative feedback to a colleague?",
+    "expect_in_docs": true,
+    "expected_any": ["one-on-one", "negative feedback"],
+    "expected_absent": ["public", "email"],
+    "category": "process",
+    "difficulty": "medium"
+  },
+  {
+    "id": 8,
+    "question": "Does GitLab prefer simple, established technology or flashy new tools?",
+    "expect_in_docs": true,
+    "expected_any": ["boring solutions"],
+    "expected_absent": [],
+    "category": "concept",
+    "difficulty": "hard"
+  },
+  {
+    "id": 9,
+    "question": "What is a 'manager of one' at GitLab?",
+    "expect_in_docs": true,
+    "expected_any": ["manager of one"],
+    "expected_absent": [],
+    "category": "concept",
+    "difficulty": "medium"
+  },
+  {
+    "id": 10,
+    "question": "By when should team members submit expenses?",
+    "expect_in_docs": true,
+    "expected_any": ["fiscal quarter"],
+    "expected_absent": [],
+    "category": "policy",
+    "difficulty": "medium"
+  },
+  {
+    "id": 11,
+    "question": "What does GitLab mean by 'assume positive intent'?",
+    "expect_in_docs": true,
+    "expected_any": ["assume positive intent"],
+    "expected_absent": [],
+    "category": "concept",
+    "difficulty": "medium"
+  },
+  {
+    "id": 12,
+    "question": "What is GitLab's 'family and friends first' principle?",
+    "expect_in_docs": true,
+    "expected_any": ["family and friends first"],
+    "expected_absent": [],
+    "category": "concept",
+    "difficulty": "medium"
+  },
+  {
+    "id": 13,
+    "question": "How should team members spend company money?",
+    "expect_in_docs": true,
+    "expected_any": ["spend company money responsibly"],
+    "expected_absent": [],
+    "category": "policy",
+    "difficulty": "medium"
+  },
+  {
+    "id": 14,
+    "question": "What endpoint management tool does GitLab use for Linux laptops?",
+    "expect_in_docs": true,
+    "expected_any": ["Fleet"],
+    "expected_absent": [],
+    "category": "fact",
+    "difficulty": "easy"
+  },
+  {
+    "id": 15,
+    "question": "How does GitLab receive vulnerability reports from outside researchers?",
+    "expect_in_docs": true,
+    "expected_any": ["HackerOne", "vulnerability"],
+    "expected_absent": [],
+    "category": "process",
+    "difficulty": "medium"
+  },
+  {
+    "id": 16,
+    "question": "What is the receipt threshold for US team members?",
+    "expect_in_docs": true,
+    "expected_any": ["$50"],
+    "expected_absent": [],
+    "category": "numeric",
+    "difficulty": "medium"
+  },
+  {
+    "id": 17,
+    "question": "How long do team members have to exercise vested options after leaving GitLab?",
+    "expect_in_docs": true,
+    "expected_any": ["90 days", "vested"],
+    "expected_absent": [],
+    "category": "numeric",
+    "difficulty": "medium"
+  },
+  {
+    "id": 18,
+    "question": "What type of equity does GitLab currently grant to team members?",
+    "expect_in_docs": true,
+    "expected_any": ["RSUs"],
+    "expected_absent": [],
+    "category": "fact",
+    "difficulty": "easy"
+  },
+  {
+    "id": 19,
+    "question": "Who should I report harassment to at GitLab?",
+    "expect_in_docs": true,
+    "expected_any": ["Team Member Relations", "harassment"],
+    "expected_absent": [],
+    "category": "process",
+    "difficulty": "medium"
+  },
+  {
+    "id": 20,
+    "question": "How many days per year must a team member reside in their primary location?",
+    "expect_in_docs": true,
+    "expected_any": ["183 days", "primary location"],
+    "expected_absent": [],
+    "category": "numeric",
+    "difficulty": "medium"
+  },
+  {
+    "id": 21,
+    "question": "What is GitLab's current stock price today?",
+    "expect_in_docs": false,
+    "expected_any": [],
+    "expected_absent": ["NASDAQ", "stock price", "per share"],
+    "category": "out_of_scope",
+    "difficulty": "easy"
+  },
+  {
+    "id": 22,
+    "question": "What was GitLab's exact revenue in the last fiscal quarter?",
+    "expect_in_docs": false,
+    "expected_any": [],
+    "expected_absent": ["revenue"],
+    "category": "out_of_scope",
+    "difficulty": "easy"
+  },
+  {
+    "id": 23,
+    "question": "Can I get a personal loan from GitLab?",
+    "expect_in_docs": false,
+    "expected_any": [],
+    "expected_absent": ["personal loan"],
+    "category": "out_of_scope",
+    "difficulty": "easy"
+  },
+  {
+    "id": 24,
+    "question": "Does GitLab reimburse gym memberships?",
+    "expect_in_docs": false,
+    "expected_any": [],
+    "expected_absent": ["gym membership"],
+    "category": "out_of_scope",
+    "difficulty": "medium"
+  },
+  {
+    "id": 25,
+    "question": "How do I book a parking space at the office?",
+    "expect_in_docs": false,
+    "expected_any": [],
+    "expected_absent": ["parking"],
+    "category": "out_of_scope",
+    "difficulty": "easy"
+  },
+  {
+    "id": 26,
+    "question": "Can I receive my salary in bitcoin?",
+    "expect_in_docs": false,
+    "expected_any": [],
+    "expected_absent": ["bitcoin"],
+    "category": "out_of_scope",
+    "difficulty": "easy"
+  },
+  {
+    "id": 27,
+    "question": "Does GitLab provide a corporate mobile phone?",
+    "expect_in_docs": false,
+    "expected_any": [],
+    "expected_absent": ["corporate phone"],
+    "category": "out_of_scope",
+    "difficulty": "easy"
+  },
+  {
+    "id": 28,
+    "question": "Do I get paid for overtime?",
+    "expect_in_docs": true,
+    "expected_any": ["overtime", "not paid", "exempt"],
+    "expected_absent": [],
+    "category": "policy",
+    "difficulty": "medium"
+  },
+  {
+    "id": 29,
+    "question": "What is GitLab's mission?",
+    "expect_in_docs": true,
+    "expected_any": ["Unlock every team", "speed of imagination"],
+    "expected_absent": [],
+    "category": "concept",
+    "difficulty": "easy"
+  },
+  {
+    "id": 30,
+    "question": "What does DRI stand for and what does a DRI do?",
+    "expect_in_docs": true,
+    "expected_any": ["Directly Responsible Individual", "DRI"],
+    "expected_absent": [],
+    "category": "concept",
+    "difficulty": "medium"
+  },
+  {
+    "id": 31,
+    "question": "Should financial information like revenue be made public?",
+    "expect_in_docs": true,
+    "expected_any": ["confidential"],
+    "expected_absent": [],
+    "category": "policy",
+    "difficulty": "easy"
+  },
+  {
+    "id": 32,
+    "question": "Who is allowed to merge a merge request at GitLab?",
+    "expect_in_docs": true,
+    "expected_any": ["maintainers"],
+    "expected_absent": [],
+    "category": "fact",
+    "difficulty": "medium"
+  },
+  {
+    "id": 33,
+    "question": "What framework does GitLab Support use for customer incidents?",
+    "expect_in_docs": true,
+    "expected_any": ["Support Incident Response", "incident"],
+    "expected_absent": [],
+    "category": "process",
+    "difficulty": "medium"
+  },
+  {
+    "id": 34,
+    "question": "Are team members responsible for their social media posts about GitLab?",
+    "expect_in_docs": true,
+    "expected_any": ["personally responsible", "social media"],
+    "expected_absent": [],
+    "category": "policy",
+    "difficulty": "medium"
+  },
+  {
+    "id": 35,
+    "question": "How should GitLab respond to a ransomware attack?",
+    "expect_in_docs": true,
+    "expected_any": ["ransomware"],
+    "expected_absent": [],
+    "category": "process",
+    "difficulty": "medium"
+  },
+  {
+    "id": 36,
+    "question": "What is GitLab's policy on bribery and corruption?",
+    "expect_in_docs": true,
+    "expected_any": ["anti-corruption", "bribery"],
+    "expected_absent": [],
+    "category": "policy",
+    "difficulty": "medium"
+  },
+  {
+    "id": 37,
+    "question": "Is GitLab an all-remote company?",
+    "expect_in_docs": true,
+    "expected_any": ["all-remote"],
+    "expected_absent": [],
+    "category": "fact",
+    "difficulty": "easy"
+  },
+  {
+    "id": 38,
+    "question": "Does GitLab offer a relocation bonus?",
+    "expect_in_docs": false,
+    "expected_any": [],
+    "expected_absent": ["relocation bonus"],
+    "category": "out_of_scope",
+    "difficulty": "medium"
+  },
+  {
+    "id": 39,
+    "question": "What is GitLab's office address in San Francisco?",
+    "expect_in_docs": false,
+    "expected_any": [],
+    "expected_absent": ["office address"],
+    "category": "out_of_scope",
+    "difficulty": "easy"
+  },
+  {
+    "id": 40,
+    "question": "What diet should I follow to lose weight?",
+    "expect_in_docs": false,
+    "expected_any": [],
+    "expected_absent": ["lose weight"],
+    "category": "out_of_scope",
+    "difficulty": "easy"
+  },
+  {
+    "id": 41,
+    "question": "What will the weather be in San Francisco tomorrow?",
+    "expect_in_docs": false,
+    "expected_any": [],
+    "expected_absent": ["weather", "forecast"],
+    "category": "out_of_scope",
+    "difficulty": "easy"
+  },
+  {
+    "id": 42,
+    "question": "How do I book a conference room?",
+    "expect_in_docs": false,
+    "expected_any": [],
+    "expected_absent": ["conference room", "meeting room"],
+    "category": "out_of_scope",
+    "difficulty": "easy"
+  },
+  {
+    "id": 43,
+    "question": "What is the Wi-Fi password at the office?",
+    "expect_in_docs": false,
+    "expected_any": [],
+    "expected_absent": ["wi-fi", "wifi"],
+    "category": "out_of_scope",
+    "difficulty": "easy"
+  },
+  {
+    "id": 44,
+    "question": "Can I bring my dog to the office?",
+    "expect_in_docs": false,
+    "expected_any": [],
+    "expected_absent": ["dog", "pet"],
+    "category": "out_of_scope",
+    "difficulty": "easy"
+  },
+  {
+    "id": 45,
+    "question": "What is the office dress code?",
+    "expect_in_docs": false,
+    "expected_any": [],
+    "expected_absent": ["dress code"],
+    "category": "out_of_scope",
+    "difficulty": "easy"
+  },
+  {
+    "id": 46,
+    "question": "How do I get a company car?",
+    "expect_in_docs": false,
+    "expected_any": [],
+    "expected_absent": ["company car"],
+    "category": "out_of_scope",
+    "difficulty": "medium"
+  },
+  {
+    "id": 47,
+    "question": "What are the office hours?",
+    "expect_in_docs": false,
+    "expected_any": [],
+    "expected_absent": ["office hours"],
+    "category": "out_of_scope",
+    "difficulty": "easy"
+  },
+  {
+    "id": 48,
+    "question": "How do I get a mortgage pre-approval through GitLab?",
+    "expect_in_docs": false,
+    "expected_any": [],
+    "expected_absent": ["mortgage", "pre-approval"],
+    "category": "out_of_scope",
+    "difficulty": "medium"
+  },
+  {
+    "id": 49,
+    "question": "How do I fix a leaking faucet at home?",
+    "expect_in_docs": false,
+    "expected_any": [],
+    "expected_absent": ["faucet", "plumbing"],
+    "category": "out_of_scope",
+    "difficulty": "easy"
+  },
+  {
+    "id": 50,
+    "question": "What is the recipe for the best chili?",
+    "expect_in_docs": false,
+    "expected_any": [],
+    "expected_absent": ["chili", "recipe"],
+    "category": "out_of_scope",
+    "difficulty": "easy"
+  }
+]

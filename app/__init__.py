@@ -1,0 +1,1 @@
+# GitLab handbook RAG app

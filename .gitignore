@@ -1,0 +1,12 @@
+.venv/
+.env
+.env.local
+.env*.local
+.chroma/
+__pycache__/
+*.pyc
+.DS_Store
+data/
+.handbook-clone/
+gitlab-handbook-corpus/
+.pytest_cache/
